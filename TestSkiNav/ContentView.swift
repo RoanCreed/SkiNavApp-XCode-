@@ -8,16 +8,34 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var selectedTab = 0 // Track the selected tab index
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView(selection: $selectedTab) {
+            // Links to seperate views
+            MapView()
+                .tabItem {
+                    Image(systemName: "skis")
+                    Text("Ski Nav")
+                }
+            
+            ProfileView()
+                .tabItem {
+                    Image(systemName: "person")
+                    Text("Profile")
+                    
+                }
+            
+            SettingsView()
+                .tabItem {
+                    Image(systemName: "gearshape")
+                    Text("Settings")
+                }
         }
-        .padding()
     }
 }
+
+
 
 #Preview {
     ContentView()

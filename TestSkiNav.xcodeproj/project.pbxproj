@@ -14,6 +14,9 @@
 		76411F392B862CC60069506B /* TestSkiNavTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76411F382B862CC60069506B /* TestSkiNavTests.swift */; };
 		76411F432B862CC60069506B /* TestSkiNavUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76411F422B862CC60069506B /* TestSkiNavUITests.swift */; };
 		76411F452B862CC70069506B /* TestSkiNavUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76411F442B862CC70069506B /* TestSkiNavUITestsLaunchTests.swift */; };
+		76C176D42B8652E70085CD80 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C176D32B8652E70085CD80 /* MapView.swift */; };
+		76C176D62B8653060085CD80 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C176D52B8653060085CD80 /* ProfileView.swift */; };
+		76C176D82B8653100085CD80 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C176D72B8653100085CD80 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		76411F3E2B862CC60069506B /* TestSkiNavUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSkiNavUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76411F422B862CC60069506B /* TestSkiNavUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSkiNavUITests.swift; sourceTree = "<group>"; };
 		76411F442B862CC70069506B /* TestSkiNavUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSkiNavUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		76C176D32B8652E70085CD80 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		76C176D52B8653060085CD80 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		76C176D72B8653100085CD80 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,9 @@
 				76411F292B862CC40069506B /* ContentView.swift */,
 				76411F2B2B862CC60069506B /* Assets.xcassets */,
 				76411F2D2B862CC60069506B /* Preview Content */,
+				76C176D32B8652E70085CD80 /* MapView.swift */,
+				76C176D52B8653060085CD80 /* ProfileView.swift */,
+				76C176D72B8653100085CD80 /* SettingsView.swift */,
 			);
 			path = TestSkiNav;
 			sourceTree = "<group>";
@@ -257,7 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76C176D82B8653100085CD80 /* SettingsView.swift in Sources */,
+				76C176D62B8653060085CD80 /* ProfileView.swift in Sources */,
 				76411F2A2B862CC40069506B /* ContentView.swift in Sources */,
+				76C176D42B8652E70085CD80 /* MapView.swift in Sources */,
 				76411F282B862CC40069506B /* TestSkiNavApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,7 +447,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Creed.TestSkiNav;
+				PRODUCT_BUNDLE_IDENTIFIER = Creed.SkiNav;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -464,7 +476,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Creed.TestSkiNav;
+				PRODUCT_BUNDLE_IDENTIFIER = Creed.SkiNav;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
